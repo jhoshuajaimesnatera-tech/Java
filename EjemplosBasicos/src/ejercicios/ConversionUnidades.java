@@ -22,6 +22,6 @@ public class ConversionUnidades {
 			conversion = velocidad / 1000/3600;
 			System.out.print("vas a: " + velocidad + "m/s y eso equivale a: " + conversion + "Km/h");
 		}
-		}
+	}
 
 }
