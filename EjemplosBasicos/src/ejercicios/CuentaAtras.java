@@ -10,14 +10,16 @@ public class CuentaAtras {
 		num = escaner.nextInt();
 		contador= num;
 		
-		System.out.print("este es con un buble while: ");
+		escaner.close();
+		
+		System.out.println("este es con un buble while: ");
 		while (contador > 0){
 			System.out.print(contador + ", ");
 			contador--;
 		}
 		System.out.println("0. ");
 		
-		System.out.print("este es con un buble do: ");
+		System.out.println("este es con un buble do: ");
 		contador=num;
 		do {
 			System.out.print(contador + ", ");
@@ -25,7 +27,7 @@ public class CuentaAtras {
 		}while(contador >0);
 		System.out.println("0. ");
 		
-		System.out.print("este es con un buble for: ");
+		System.out.println("este es con un buble for: ");
 		for (int i=num; i>0; i--) {
 			System.out.print(i + ", ");
 		}
